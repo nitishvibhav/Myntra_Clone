@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+
+.top-heading{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #b6b1b1;
+    
+}
+
+.category a:hover {
+    border-bottom: 2px solid #f54e77;
+}
+
+.logo img{
+    height: 30px;
+}
+.logo{
+    margin-left: 4%;
+}
+.action{
+    margin-right: 4%;
+}
+
+.category a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+    letter-spacing: 1px;
+    
+}
+
+
+.category {
+   
+    display: flex;
+    min-width: 500px;
+    justify-content: space-between;
+
+}
+
+.category a sup{
+    color: red;
+    font-size: 10px;
+}
+.search_input {
+    background-color:#f5f5f6;
+    
+    padding: 8px 10px 10px;
+    display: inline-block;
+    width: 320px;
+    text-indent: 0px;
+    border: #f5f5f6;
+}
+
+.search_icon{
+    height: 14.7px;
+    width: 14.7px;
+    background-color: #f5f5f6;
+    padding:  10px;
+    color: grey ;
+    
+
+}
+.search_bar{
+    align-content: center;
+    display: flex;
+    background: #f5f5f6;
+   
+}
+
+.action{
+    justify-content: space-between;
+    display: flex;
+    min-width: 200px;
+}
+
+.action_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 700;
+
+}
+
+
+.banner_container{
+    margin: 40px 0px;
+}
+
+.banner_image{
+    width: 100%;
+}
+
+.category_heading {
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+
+.category_items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.sale_item {
+    width: 250px;
+}
+
+
+.footer_container {
+    padding: 30px 0px 40px 0px;
+    background: #FAFBFC;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer_column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_column h3 {
+    color: #282c3f;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.footer_column a {
+    color: #696b79;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.copyright {
+    color: #94969f;
+    text-align: end;
+    padding: 15px;
+}
+
+.action_symbol{
+text-decoration: none;
+color:black;
+}
